@@ -1,11 +1,35 @@
 body{
-    background-color: rgb(68, 149, 255);
+    background-color: rgb(21, 105, 216);
     display:flex;
     justify-content:center;
     align-items:center; 
+    height: 97vh;
 }
 #login-box{
     background-color:white;
     padding:20px;
     text-align:center;
+}
+h2{
+    font-size:30px;
+}
+#username{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#password{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#submit{
+    background-color: rgb(3, 3, 255);
+    color: white;
+    margin-top: 5px;
+    padding: 3px 13px;
+    font-size:17px;
+    border-radius:3px;
+    border: 1px solid rgb(3, 3, 255);
+}
+#submit:hover{
+    background-color: rgb(22, 72, 209);
 }
