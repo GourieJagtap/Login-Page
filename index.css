@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(68, 149, 255);
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+#login-box{
+    background-color:white;
+    padding:20px;
+    text-align:center;
+}
