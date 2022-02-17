@@ -33,12 +33,25 @@ function validate(){
         }
         flag=0;
     }
+    
     else{
         document.getElementById('error1').innerHTML='';
         document.getElementById('error2').innerHTML='';
         flag=1;
+        location.reload();
         alert("form submitted!");
     }
+    if(username.value.length>2){
+        document.getElementById('error1').style.display="none";
+        if(password.value==""){
+            document.getElementById('error2').innerHTML="Password cannot be empty!";
+        }
+        else{
+            document.getElementById('error2').style.display="none";
+        }
+        flag=0;
+    }
+
     // if(password.value==""){
     //     document.getElementById('error2').innerHTML="Password cannot be empty!";
     //     flag=0;
