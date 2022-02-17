@@ -51,15 +51,6 @@ function validate(){
         }
         flag=0;
     }
-
-    // if(password.value==""){
-    //     document.getElementById('error2').innerHTML="Password cannot be empty!";
-    //     flag=0;
-    // }
-    // else{
-    //     document.getElementById('error2').innerHTML="";
-    //     flag=1;
-    // }
     if(flag){
         return true;
     }
