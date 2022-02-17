@@ -1,6 +1,6 @@
 let username=document.getElementById('username');
 let password=document.getElementById('password');
-let flag=0;
+let flag=1;
 function validate(){
     if(username.value==""){
         document.getElementById('error1').innerHTML="Username cannot be empty!";
