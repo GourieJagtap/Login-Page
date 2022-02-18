@@ -34,6 +34,7 @@ function validate(){
         flag=0;
     }
     
+    
     else{
         document.getElementById('error1').innerHTML='';
         document.getElementById('error2').innerHTML='';
